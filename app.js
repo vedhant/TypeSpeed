@@ -38,7 +38,7 @@ text_area.addEventListener('keydown',function(e){
             document.querySelector('div input').setAttribute('type','text');
             document.querySelector('div input').setAttribute('value',text);
             document.querySelector('div input').setAttribute('class','type_space');
-            document.querySelector('div').innerHTML += "<p>Your typing speed is " + seconds/text.length + " seconds per character</p>";
+            document.querySelector('div').innerHTML += "<p>Your typing speed is " + seconds/text.length + " characters per second</p>";
             document.querySelector('div input').style.background = "rgba(0,255,0,0.7)";
         }
     }
